@@ -1,0 +1,170 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contact-left h1{
+   font-size: 50px;
+    margin-top: 70px;
+    color: #08039f;
+    margin-left: 10px;
+}
+
+.contact-left p{
+     color: var(--contact-left-p);
+     font-size: 20px;
+     margin-top: -10px;
+     display: flex;
+     align-items: center;
+     margin-left: 12px;
+}
+
+.social-icons img{
+    width: 30px;
+    padding: 5px;
+    margin-left: 8px;
+    transition: transform 0.5s;
+    
+}
+
+.social-icons img:hover{
+    transform: translateY(-5px);
+}
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+    margin-left: 560px;
+    margin-top: -250px;
+}
+
+
+
+.proton-img {
+  width: 40px; 
+}
+
+
+.phone-img{
+    width: 20px;
+    margin-left: 10px;
+   
+    
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: fit-content;
+  border: 1px solid var(--btn-border);
+  padding: 2px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--btn-color);
+  background-color: transparent;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #08039f, #1aff00);
+  color: white;
+}
+
+.contact-right form{
+   width: 100%;
+}
+
+form input, form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-left h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .contact-left p {
+    font-size: 10px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+  }
+
+  .social-icons img {
+    width: 20px;
+    padding: 2px;
+    margin-left: 8px;
+    transition: transform 0.5s;
+  }
+
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .contact-right form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  form input,
+  form textarea {
+    width: 50%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 12px;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 6px;
+    margin-left: -15px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: fit-content;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 11px;
+    height: 30px;
+    gap: 8px;
+  }
+
+  .proton-img {
+    width: 30px;
+  }
+
+  .phone-img {
+    width: 18px;
+    margin-left: 10px;
+  }
+}

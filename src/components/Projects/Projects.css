@@ -1,0 +1,264 @@
+.projects {
+  margin-top: 80px;
+}
+
+.projects-heading h1 {
+  font-size: 50px;
+  margin-left: 670px;
+  color: #08039f;
+}
+
+.projects-heading h2 {
+  font-size: 20px;
+  margin-top: -25px;
+  color: rgb(172, 173, 173);
+  margin-left: 580px;
+}
+
+.project-card h2 {
+  font-size: 25px;
+  margin-top: -5px;
+  color: var( --project-card-h2);
+}
+
+.project-card p {
+  font-size: 17px;
+  color: var( --project-card-p);
+}
+
+
+.projects-cards {
+  display: flex;
+  overflow-x: auto;              
+  scroll-snap-type: x mandatory; 
+  gap: 45px;
+  padding: 20px 0;
+  scroll-behavior: smooth;       
+  -webkit-overflow-scrolling: touch; 
+}
+
+
+.projects-cards::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.project-card {
+  flex: 0 0 400px;           
+  scroll-snap-align: start;  
+  min-height: 150px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 85%);
+  padding: 20px;
+  background-color: var(--project-card-bg);
+  text-align: center;
+  margin-top: 40px;
+  transition: transform 0.5s;
+}
+
+.project-card:hover{
+    box-shadow:  8px 8px 10px#13ae01;
+    transform: translateY(-5px);
+}
+
+.react-logo {
+  width: 30px;
+}
+
+.tmdb-logo {
+  width: 60px;
+}
+
+.firebase-logo {
+  width: 30px;
+}
+
+.logo {
+  width: 30px;
+  margin-left: 10px;
+}
+
+
+.but1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: fit-content;
+  border: 1px solid var( --but1-border);
+  padding: 2px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var( --but1-color);
+  background-color: transparent;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.but1:hover {
+  background: linear-gradient(90deg, #08039f, #1aff00);
+  color: white;
+}
+
+
+
+/* Tablet */
+@media (max-width: 1280px) {
+  .projects-heading h1 {
+  font-size: 50px;
+  margin-left: 450px;
+}
+
+.projects-heading h2 {
+  font-size: 20px;
+  margin-top: -25px;
+  margin-left: 380px;
+}
+
+.project-card h2 {
+  font-size: 25px;
+  margin-top: -5px;
+}
+
+.project-card p {
+  font-size: 17px;
+}
+
+
+.projects-cards {
+  display: flex;
+  overflow-x: auto;              
+  scroll-snap-type: x mandatory; 
+  gap: 45px;
+  padding: 20px 0;
+  scroll-behavior: smooth;       
+  -webkit-overflow-scrolling: touch; 
+}
+
+.project-card {
+  flex: 0 0 400px;           
+  scroll-snap-align: start;  
+  min-height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  transition: transform 0.5s;
+}
+
+
+.react-logo {
+  width: 30px;
+}
+
+.tmdb-logo {
+  width: 60px;
+}
+
+.firebase-logo {
+  width: 30px;
+}
+
+.logo {
+  width: 30px;
+  margin-left: 10px;
+}
+
+
+.but1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: fit-content;
+  padding: 2px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: transparent;
+  gap: 10px;
+  cursor: pointer;
+}
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+.projects-heading h1 {
+  font-size: 20px;
+  margin-left: 60px;
+}
+
+.projects-heading h2 {
+  font-size: 10px;
+  margin-top: -13px;
+  margin-left: 8px;
+}
+
+.project-card h2 {
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.project-card p {
+  font-size: 11px;
+}
+
+
+.projects-cards {
+  display: flex;
+  overflow-x: auto;              
+  scroll-snap-type: x mandatory; 
+  gap: 45px;
+  padding: 10px ;
+  scroll-behavior: smooth;       
+  -webkit-overflow-scrolling: touch; 
+}
+
+.project-card{
+  flex: 0 0 180px;  
+  padding: 10px;         
+  scroll-snap-align: start;  
+  min-height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  transition: transform 0.5s;
+  
+}
+
+
+.react-logo {
+  width: 20px;
+}
+
+.tmdb-logo {
+  width: 40px;
+}
+
+.firebase-logo {
+  width: 20px;
+}
+
+.logo {
+  width: 20px;
+  margin-left: 10px;
+}
+
+
+.but1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: fit-content;
+  padding: 2px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: transparent;
+  gap: 10px;
+  cursor: pointer;
+}
+
+}

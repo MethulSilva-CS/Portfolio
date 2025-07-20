@@ -1,0 +1,133 @@
+.info h1{
+    font-size: 50px;
+    margin-top: 180px;
+    color: #08039f;
+    margin-left: 575px;
+    
+    
+}
+
+.info h2{
+     font-size: 20px;
+     margin-top: -55px;
+     color: rgb(172, 173, 173);
+     margin-left: 550px;
+}
+
+.aboutme-card{
+    border: 1px solid hsl(0, 0%,80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    display: inline-block;
+    background-color:var(--aboutme-card-bg);
+    margin-top: 40px;
+    margin-left: 300px;
+     transition: transform 0.5s;  
+      
+}
+
+.aboutme-card:hover{
+     box-shadow:  8px 8px 10px#13ae01;
+     transform: translateY(-5px);   
+}
+
+
+.about-me p{
+    color: var(--about-me-p);
+    font-size: 20px;
+    
+}
+
+.img .my-img{
+  width: 150px;        
+  height: 150px;        
+  object-fit: cover;    
+  border-radius: 50%;   
+  border: 3px solid #ffffff; 
+  margin-top: -180px;
+  margin-left: 850px;
+}
+
+
+/* Tablet */
+@media (max-width: 1280px) {
+   .info h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.info h2{
+     font-size: 20px;
+     margin-top: -45px;
+     margin-left: 330px;
+}
+
+.aboutme-card{
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 300px;
+     transition: transform 0.5s;  
+}
+
+.img .my-img{
+  width: 150px;        
+  height: 150px;        
+  object-fit: cover;    
+  border-radius: 50%;  
+  margin-top: -180px;
+  margin-left: 600px;
+}
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .info h1{
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.info h2{
+     font-size: 13px;
+     margin-top: -35px;
+     margin-left: 20px;
+}
+
+.aboutme-card{
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 130px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    transition: transform 0.5s;  
+    height: 200px;
+
+}
+
+.about-me p{
+    font-size: 10px;
+    margin-top: -10px;
+    
+}
+
+.img .my-img{
+  width: 80px;        
+  height: 80px;        
+  object-fit: cover;    
+  border-radius: 50%;  
+   margin-top: -180px;
+  margin-left: 200px;
+  
+}
+}

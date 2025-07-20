@@ -1,0 +1,133 @@
+.education{
+     margin-top: 80px;
+}
+
+.edu-heading h1{
+    font-size: 50px;
+    color: #08039f;
+    margin-left: 680px; 
+}
+
+.edu-heading h2{
+   font-size: 20px;
+   margin-top: -30px;
+   color: rgb(172, 173, 173);
+   margin-left: 625px;
+}
+
+.edu-card h2{
+    font-size: 25px;
+    margin-top: -5px;
+    color:var(--edu-card-h2) ;
+}
+
+.edu-card p{
+    font-size: 17px;
+    color:var(--edu-card-p);
+}
+
+.edu-card{
+  width: 880px;
+  min-height: 50px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 85%);
+  padding: 20px;
+  background-color:var(--edu-card-bg);
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 40px;
+   transition: transform 0.5s;  
+}
+
+.edu-card:hover{
+    box-shadow:  8px 8px 10px#13ae01;
+    transform: translateY(-5px);
+}
+
+.location{
+    width: 25px;
+    margin-bottom: -5px;
+}
+
+.date{
+    width: 25px;
+    margin-bottom: -5px;
+}
+
+
+
+
+/* Tablet */
+@media (max-width: 1280px) {
+   .edu-heading h1{
+    font-size: 50px;
+    margin-left: 410px;
+   
+}
+
+.edu-heading h2{
+   font-size: 20px;
+   margin-top: -30px;
+   margin-left: 355px;
+}
+
+.edu-card h2{
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.edu-card p{
+    font-size: 17px;
+}
+
+.edu-card{
+  width: 580px;
+  min-height: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 40px;
+   transition: transform 0.5s;  
+}
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+   .edu-heading h1{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: -50px;
+   
+}
+
+.edu-heading h2{
+   font-size: 12px;
+   margin-top: -15px;
+   margin-left: 2px;
+}
+
+.edu-card h2{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.edu-card p{
+    font-size: 10px;
+}
+
+.edu-card{
+  width: 130px;
+  min-height: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 40px;
+   transition: transform 0.5s;  
+}
+
+
+}

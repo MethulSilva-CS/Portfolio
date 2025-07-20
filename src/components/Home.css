@@ -1,0 +1,165 @@
+.heading h1{
+    font-size: 70px;
+    margin-top: 120px;
+    margin-left: 10px;
+    background: linear-gradient(90deg, #08039f, #13ae01);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    
+}
+
+.heading p{
+    font-size: 18px;
+    margin-left: 14px;
+    margin-top: -50px;
+    color: rgb(172, 173, 173);
+     color:var(--p);
+    white-space: pre-wrap;
+}
+
+.heading p span {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeInLetter 0.5s forwards;
+}
+
+@keyframes fadeInLetter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-card{
+    border-radius: 60px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 500px;
+    display: inline-block;
+    background-color: #fdf7fc;
+    margin-left: 800px;
+    margin-top: -230px;
+    position: relative;
+}
+
+.home-card .home-card-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8%;
+   
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.home-card::after, .home-card::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    background-image: conic-gradient(from var(--angle),blue, rgb(0, 247, 0));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    padding: 8px;
+    border-radius: 60px;
+    animation: 8s spin linear infinite;
+}
+
+.home-card::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+@keyframes spin{
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 1280px) {
+    .heading h1{
+    font-size: 60px;
+    margin-top: auto;
+    margin-left: 20px;
+    display: inline-block;
+    align-items: center;
+    }
+    
+   .heading p{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: auto;
+}
+
+.home-card{
+    border-radius: 60px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+    background-color: #fdf7fc;
+    margin-left: 20px;
+    margin-top: auto;
+    position: relative;
+}
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .heading h1{
+    font-size: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    display: inline-block;
+    align-items: center;
+    }
+    
+   .heading p{
+    font-size: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    align-items: center;
+    word-wrap: break-word;
+    
+    
+    
+}
+
+.home-card{
+    border-radius: 60px;
+    padding: 10px;
+    margin: 128px;
+    text-align: center;
+    max-width: 150px;
+    display: inline-block;
+    background-color: #fdf7fc;
+    margin-left: 10px;
+    margin-top: auto;
+    position: relative;
+}
+
+.home-card .home-card-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 18%;
+}
+
+}

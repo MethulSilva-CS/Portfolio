@@ -1,0 +1,165 @@
+.skills {
+  text-align: center;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.skills-topic h1 {
+   font-size: 50px;
+   color: #08039f;
+    
+}
+
+.skills-topic h2{
+   font-size: 20px;
+   margin-top: -40px;
+   color: rgb(172, 173, 173);
+   margin-left: 15px;
+     
+}
+.skills-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 280px;
+  min-height: 300px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 85%);
+  padding: 20px;
+   background-color: var(--skills-cards-bg);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card:hover{
+ box-shadow:  8px 8px 10px#08039f;
+}
+
+.card img.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -15px;
+}
+
+.card h2 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  align-items: center;
+  color: var(--card-h2);
+}
+
+.card p {
+  margin: 5px 0;
+  color:var(--card-p);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Tablet */
+@media (max-width: 1280px) {
+ .skills-topic h1 {
+   font-size: 50px;
+   margin-left: -50px;
+    
+}
+
+.skills-topic h2{
+   font-size: 20px;
+   margin-top: -40px;
+   margin-left: -50px;
+     
+}
+.skills-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: -70px;
+}
+
+.card {
+  width: 200px;
+  min-height: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card img.icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -15px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+   .skills-topic h1 {
+   font-size: 20px;
+   margin-left: -200px;
+    
+}
+
+.skills-topic h2{
+   font-size: 13px;
+   margin-top: -15px;
+   margin-left: -190px;
+     
+}
+.skills-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-left: 0;
+}
+
+.card {
+  width: 45%;
+  min-height: auto;
+  border-radius: 10px;
+  padding: 20px;
+
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -208px;
+}
+
+
+.card img.icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -15px;
+}
+
+.card h2 {
+  font-size: 13px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+}

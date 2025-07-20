@@ -1,0 +1,54 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color); 
+}
+
+[data-theme='light'] {
+  --background-color: white;
+  --p:black;
+  --aboutme-card-bg:rgb(63, 63, 63);
+  --about-me-p:white;
+   --skills-cards-bg:rgb(63, 63, 63);
+  --card-p:#ffffff;
+  --card-h2:rgb(255, 255, 255);
+  --edu-card-bg: rgb(63, 63, 63);
+  --edu-card-p:rgb(255, 255, 255);
+  --edu-card-h2:rgb(255, 255, 255);
+   --service-card-bg:rgb(63, 63, 63);
+  --service-card-h2:rgb(255, 255, 255);
+  --service-card-p:rgb(255, 255, 255);
+  --project-card-bg:rgb(63, 63, 63);
+  --project-card-p:rgb(255, 255, 255);
+  --project-card-h2:rgb(255, 255, 255);
+  --but1-border:rgb(255, 255, 255);
+  --but1-color:rgb(254, 254, 254);
+  --contact-left-p:black;
+  --btn-color:black;
+   --btn-border: black;
+}
+
+[data-theme='dark'] {
+  --background-color: black;
+  --p: rgb(172, 173, 173);
+  --aboutme-card-bg:#ffffff;
+  --about-me-p:rgb(7, 7, 7);
+  --skills-cards-bg:#ffffff;
+  --card-p:#414141;
+  --card-h2:black;
+  --edu-card-bg: #ffffff;
+  --edu-card-p:rgb(117, 117, 117);
+  --edu-card-h2:rgb(0, 0, 0);
+  --service-card-bg:#ffffff;
+  --service-card-h2:black;
+  --service-card-p:rgb(117, 117, 117);
+  --project-card-bg:#ffffff;
+  --project-card-p:rgb(117, 117, 117);
+  --project-card-h2:black;
+  --but1-border:rgb(0, 0, 0);
+  --but1-color:rgb(0, 0, 0);
+  --contact-left-p:rgb(172, 173, 173);
+  --btn-color:rgb(172, 173, 173);
+  --btn-border: rgb(172, 173, 173);
+
+
+}
