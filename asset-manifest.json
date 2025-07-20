@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.f2101f40.css",
+    "main.js": "/Portfolio/static/js/main.8c661d2c.js",
+    "static/js/453.ad7768ec.chunk.js": "/Portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/AboutMe.jpeg": "/Portfolio/static/media/AboutMe.fb9ccbf9670498e11952.jpeg",
+    "static/media/Methul_IIT_CV.pdf": "/Portfolio/static/media/Methul_IIT_CV.a9e6330d82362dfcd8b7.pdf",
+    "static/media/main-img.jpeg": "/Portfolio/static/media/main-img.084e4524a03a5397b6c2.jpeg",
+    "static/media/tmdb.png": "/Portfolio/static/media/tmdb.d78e821feb267b772cb8.png",
+    "static/media/firebase.png": "/Portfolio/static/media/firebase.313f71e6b8ff07da2b79.png",
+    "static/media/solidity.png": "/Portfolio/static/media/solidity.9b16177053c09260ebf6.png",
+    "static/media/date.png": "/Portfolio/static/media/date.887d4210d49804d479e4.png",
+    "static/media/mongodb.png": "/Portfolio/static/media/mongodb.f0631db34fc7c538bb95.png",
+    "static/media/python.png": "/Portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/nodejs.png": "/Portfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/react.png": "/Portfolio/static/media/react.3bf6fb4b18b1f904676d.png",
+    "static/media/api.png": "/Portfolio/static/media/api.f87874ce047da91ec983.png",
+    "static/media/java.png": "/Portfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/code.png": "/Portfolio/static/media/code.ea42251e9f3632c3814b.png",
+    "static/media/dev.png": "/Portfolio/static/media/dev.dc8afe442d60f45d64d1.png",
+    "static/media/ui-ux.png": "/Portfolio/static/media/ui-ux.dd08259b9cc30d5666bd.png",
+    "static/media/location.png": "/Portfolio/static/media/location.9186a785f3f676555bb4.png",
+    "static/media/polygon.png": "/Portfolio/static/media/polygon.6b7c4c768e6579e9ca9d.png",
+    "static/media/github2.png": "/Portfolio/static/media/github2.a855c3975c028d8069f5.png",
+    "static/media/frontend.png": "/Portfolio/static/media/frontend.ffa3e0dd754dc923e50b.png",
+    "static/media/backend.png": "/Portfolio/static/media/backend.9b049d4d6f1bc711e53f.png",
+    "static/media/github.png": "/Portfolio/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/Portfolio/index.html",
+    "main.f2101f40.css.map": "/Portfolio/static/css/main.f2101f40.css.map",
+    "main.8c661d2c.js.map": "/Portfolio/static/js/main.8c661d2c.js.map",
+    "453.ad7768ec.chunk.js.map": "/Portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2101f40.css",
+    "static/js/main.8c661d2c.js"
+  ]
+}
